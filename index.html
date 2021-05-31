@@ -6,46 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
     <link rel="stylesheet" href="app.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+      </style> 
   </head>
   <body>
     <div class="landing-page">
       <nav>
-        <img id="logo-img" src="images\charlie-browns-fresh-grill-logo.png" alt="" />
-  
-        
-          <ul id="nav-items">
-            <li>
-              <select name="menu" id="menu">
-                <option>MENU</option>
-                <option>Special day</option>
-                <option>Summer Special</option>
-                <option>All day menu</option>
-                <option>Kids menu</option>
-                <option>Gluten Friendly menu</option>
-              </select>
-            </li>
-            <li>LOCATIONS</li>
-            <li>
-              <select name="order" id="order">
-                <option value="">ORDER ONLINE</option>
-                <option value="pickup">Pick up</option>
-                <option value="delivery">Delivery</option>
-              </select>
-            </li>
-            <li>ORDER CATERING</li>
-            <li>
-              <select name="catering" id="catering">
-                <option value="">HANDSHAKE CLUB</option>
-                <option value="">Handshake club</option>
-                <option value="">FAQ</option>
-                <option value="">Rules and Regulations</option>
-              </select>
-            </li>
-            <li>COVID-19</li>
-          </ul>
-        
+        <img
+          id="logo-img"
+          src="images\charlie-browns-fresh-grill-logo.png"
+          alt=""
+        />
+        <ul id="nav-items">
+
+          <li class="drop">
+            <a href="">MENU</a>
+           
+              <ul>
+
+                
+                <li><a href=""> Special day</a></li>
+                <li><a href="">Summer Special</a></li>
+                <li><a href="">All day menu</a></li>
+                <li><a href="">Kids menu</a></li>
+                <li><a href="">Gluten friday</a></li>
+              </ul>
+            
+          </li>
+
+          <li><a href="">LOCATIONS</a> </li>
+
+          <li class="drop">
+            <a href="">ORDER ONLINE</a>
+          
+              <ul>
+                
+                <li><a href="">Order Online</a></li>
+                <li><a href="">Pick Up</a></li>
+                <li><a href="">Delivery</a></li>
+              </ul>
+            
+          </li>
+
+          <li><a href="">ORDER CATERING</a> </li>
+
+          <li class="drop">
+            <a href="">HANDSHAKE CLUB</a>
+          
+              <ul id="max">
+                 
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Rules and Regulations</a></li>
+              </ul>
+            
+          </li>
+          <li>COVID-19</li>
+        </ul>
       </nav>
+
+      <div class="textbox">
+        <h2>THE WAY</h2>
+         <h1>STEAK</h1>
+         <h2>WAS MEANT TO BE.</h2>
+      </div>
     </div>
-    
   </body>
 </html>
