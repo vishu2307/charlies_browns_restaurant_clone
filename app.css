@@ -172,65 +172,6 @@
     background: center/cover url(images/pexels-syed-saud-ahmed-6850423.jpg)
     no-repeat fixed ;
 }
-/* 
-.menu{
-    min-height: 120vh;
-    background: center/cover url("images/texture.jpg") no-repeat;
-    
-    
-}
-
-.menu h1{
-    text-align: center;
-    font-size: 3rem;
-    
-    
-}
-
-
-
- .bold-items{
-    font-weight: 600;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
-    height: 100%;
-    
-}
-.bold-items td{
-    padding: 2% 0;
-}
-
-.menu-pg1{
-    display: flex;
-    min-height: 85%;
-}
-
-.menu1{
-    width:40%;
-    height:70%;
-    padding: 5% 1% 5% 3%;
-    background-color: tomato;
-    
-}
-
-.menu1 h2 {
-    font-size: 1.6rem;
-    font-weight: 400; 
-    border-bottom: rgb(119, 115, 119) solid 1.5px;
-    display: inline-block;
-    padding-bottom: 2px;
-    
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 3.5px;
-}
-.menu-img{
-    width: 50%;
-    height:80%;
-    display: inline-block;
-    background-size: cover;
-    
-     
-} */
 
 
 .special-menu{
@@ -273,19 +214,7 @@
   font-family: 'Lato', sans-serif;
   
 }
-.table{
-   
-  width: 38%;
-  height: 85%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-   
-  background-color: snow;
-  padding: 0 2% ;
-  position: absolute;
-  left: 7%;
-}
+
 .special-menu h2 {
   font-size: 1.6rem;
   font-weight: 400; 
@@ -300,10 +229,9 @@
   
   width: 775px;
   height: 595px;
-  background-image:url(images/pexels-nyara-aquino-5643427.jpg) ;
+  background-image:url("images/pexels-engin-akyurt-5379639.jpg") ;
   background-position: center;
   background-size: cover;
- 
   background-repeat: no-repeat;
   margin-left: 40%;
 }
@@ -313,3 +241,186 @@
    
   text-align: right;
 }
+.table{
+  width: 40%;
+  position: absolute;
+  left: 90px; background: rgb(255, 255, 255);
+   padding: 40px; 
+   z-index: 2; 
+   display: block; 
+   transform: translate(0, 10%);
+  }
+
+
+
+
+
+
+
+
+
+  .body{
+    min-height: 400vh;
+    width: 100%;
+    background: center/cover url("images/texture.jpg") no-repeat ;
+     
+  }
+  .second-menu{
+    min-height: 120vh;
+    width: 100%;
+    display: flex;
+    
+  }
+  
+   
+  
+  
+  .bold-items1 td{
+    padding: 3% 0;
+  }
+  .descp1{
+    color: rgb(82, 77, 77);
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+  }
+  .bold-items1{
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    
+  }
+  
+  .second-menu h2 {
+    font-size: 1.6rem;
+    font-weight: 400; 
+    border-bottom: rgb(119, 115, 119) solid 1.5px;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3.5px;
+  }
+  .second-menu .img1{
+    
+    width: 650px;
+    height: 500px;
+    background-image:url("images/pexels-shameel-mukkath-6089827.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translate(20%, 30%);
+    
+  }
+   
+  .money1{
+   
+     
+    text-align: right;
+  }
+  .table1{
+    width: 40%;
+    height: 85%;
+    background: rgb(255, 255, 255);
+     padding: 40px; 
+     z-index: 2; 
+     display: block; 
+     transform: translate(15%, 45%);
+    }
+
+
+footer{
+  
+  width: 100%;
+  background-color:rgb(37, 36, 36);
+  display: flex;
+  justify-content: center;
+  transition: 0.8s;
+  
+  
+}
+
+.we{
+  
+  width: 30%;
+  padding: 4% 0 ;
+}
+.we p{
+  margin-top: 2em;
+  color: rgb(172, 162, 162);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+  line-height: 2em;
+}
+
+.contact{
+   
+  width: 25%;
+  color: snow;
+  font-family: 'Lato', sans-serif;
+  font-size: smaller;
+  
+}
+.contact a{
+  text-decoration: none;
+  color: snow;
+   
+
+}
+.social{
+  margin-top:2em;
+}
+.message{
+  font-size: 0.8rem;
+}
+.contact h3{
+  margin: 5em 0 1.9em 0;
+  font-size: 0.85rem;
+
+  
+}
+
+.links{
+  width: 25%;
+  font-family: 'Lato', sans-serif;
+  line-height: 2.5em;
+  color: snow;
+  font-size: 0.85rem;
+
+}
+
+.links h3{
+  margin-top: 2em;
+  font-size: 0.85rem;
+  
+}
+
+
+
+
+footer a:hover{
+  color:rgb(241, 175, 52);
+}
+
+
+
+
+/* .end-logo{
+  width: 10%;
+  height: 5%;
+  margin:5% 0 0 11%;
+} */
+/* .we p{
+  color: snow;
+  
+} */
+/* .links h3{
+  color: snow;
+  font-size: smaller;
+
+
+} */
+
+
+
+
+
