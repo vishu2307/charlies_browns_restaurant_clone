@@ -300,11 +300,13 @@
     <script>
       var getMenu = document.querySelector('#nav-items');
       function showMenu(){
+        getMenu.style.display="block"
         getMenu.style.right="0"
       }
 
       function hideMenu(){
         getMenu.style.right="-50%"
+        getMenu.style.display="none"
       }
 
     </script>  
